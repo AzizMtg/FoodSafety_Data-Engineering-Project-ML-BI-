@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: rgb(0, 0, 30);
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-header {
+            background-color: rgb(255, 165, 0);
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            padding: 15px;
+        }
+
+        .card-body {
+            background-color: white;
+            color: black;
+        }
+
+        .btn-primary {
+            background-color: rgb(255, 165, 0);
+            border: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: rgb(230, 135, 0);
+        }
+
+        .btn-link {
+            color: rgb(0, 0, 30);
+            font-weight: bold;
+        }
+
+        .btn-link:hover {
+            text-decoration: none;
+            color: rgb(255, 165, 0);
+        }
+
+        input {
+            border-radius: 5px !important;
+            padding: 8px !important;
+            font-size: 14px;
+        }
+
+        select {
+            border-radius: 5px !important;
+            padding: 8px !important;
+            font-size: 14px;
+            background-color: rgb(255, 250, 240);
+            color: black;
+            border: 1px solid rgb(200, 200, 200);
+            transition: border-color 0.3s;
+        }
+
+        select:hover, select:focus {
+            border-color: rgb(255, 165, 0);
+        }
+
+        input:focus {
+            border-color: rgb(255, 165, 0) !important;
+            box-shadow: 0 0 5px rgb(255, 165, 0) !important;
+        }
+
+        .form-text {
+            font-size: 12px;
+            color: gray;
+        }
+
+        .error-message {
+            font-size: 12px;
+            color: red;
+        }
+
+        .input-group {
+            position: relative;
+        }
+
+        /* Adjust vertical size of the input fields (70% smaller) */
+        .input-group input, 
+        .input-group select {
+            width: 50%; /* Keep the width as 50% */
+            margin-bottom: 5px; /* Keep space below the input field */
+            margin-left: auto; /* Center the fields */
+            margin-right: auto; /* Center the fields */
+            padding: 2px; /* Decrease padding to make the field significantly shorter */
+            font-size: 10px; /* Decrease font size further */
+        }
+
+        /* Make sure small text is displayed below the input field */
+        small {
+            display: block; /* Force small text to appear on a new line */
+            margin-top: 5px; /* Add space between input and small text */
+            color: gray; /* Keep the text color gray for description */
+        }
+
+        .input-group small {
+            position: absolute;
+            bottom: -18px; /* Position below the input field */
+            left: 0;
+            width: 100%;
+            font-size: 10px; /* Decrease font size of the small text */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <h1 class="text-center text-white">Please Login.</h1>
+            <nav>
+                <a href="/" class="text-white">Home</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Login</h3>
+                    </div>
+                    <div class="card-body">
+                        {% load widget_tweaks %}
+                        <form method="POST" id="login-form">
+                            {% csrf_token %}
+                            
+                            <!-- Username Field -->
+                            <div class="mb-3 input-group">
+                                {{ form.username.label_tag }}
+                                {{ form.username|add_class:"form-control" }}
+                                {% if form.username.errors %}
+                                    <div class="error-message">{{ form.username.errors }}</div>
+                                {% endif %}
+                            </div>
+
+                            <!-- Password Field -->
+                            <div class="mb-3 input-group">
+                                {{ form.password.label_tag }}
+                                {{ form.password|add_class:"form-control" }}
+                                {% if form.password.errors %}
+                                    <div class="error-message">{{ form.password.errors }}</div>
+                                {% endif %}
+                            </div>
+
+                            <!-- Submit Button -->
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
