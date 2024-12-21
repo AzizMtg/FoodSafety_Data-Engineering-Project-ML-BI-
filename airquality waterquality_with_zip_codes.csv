@@ -1,0 +1,160 @@
+City,Region,Country,AirQuality,WaterPollution,ZIP_Start,ZIP_End
+New York City,NY,United States of America,46.81603774,49.5049505,10000,10292
+San Francisco,CA,United States of America,60.51401869,43.0,94080,94199
+Los Angeles,CA,United States of America,36.62162162,61.29943503,90001,91494
+Huntington Beach,CA,United States of America,85.71428571,65.625,92605,92649
+San Diego,CA,United States of America,74.38271605,52.36486486,92101,92199
+San Jose,CA,United States of America,62.20930233,41.25,95101,95199
+Long Beach,CA,United States of America,50.0,32.69230769,90801,90899
+Oakland,CA,United States of America,72.14285714,33.33333333,94601,94666
+Sacramento,CA,United States of America,55.09259259,39.89361702,94203,95899
+Brooklyn,NY,United States of America,52.08333333,33.65384615,11201,11256
+Las Vegas,NV,United States of America,51.72413793,49.69135802,89030,89199
+Albany,NY,United States of America,87.5,31.25,12201,12288
+Buffalo,NY,United States of America,77.08333333,36.95652174,14201,14280
+Carson City,NV,United States of America,100.0,50.0,89701,89721
+Fresno,CA,United States of America,21.25,78.125,93650,93888
+Santa Monica,CA,United States of America,66.66666667,54.16666667,90401,90411
+Palo Alto,CA,United States of America,56.25,50.0,94301,94310
+San Luis Obispo,CA,United States of America,92.5,45.83333333,93401,93410
+Rochester,NY,United States of America,64.70588235,47.91666667,14445,14694
+Irvine,CA,United States of America,63.15789474,33.33333333,92602,92730
+Fremont,CA,United States of America,79.16666667,15.0,94536,94555
+Reno,NV,United States of America,70.93023256,28.84615385,89501,89599
+Stockton,CA,United States of America,44.23076923,71.875,95201,95298
+Riverside,CA,United States of America,45.83333333,53.33333333,92501,92522
+Santa Ana,CA,United States of America,50.0,55.0,92701,92799
+Anaheim,CA,United States of America,55.76923077,33.33333333,92801,92899
+Bakersfield,CA,United States of America,16.66666667,68.47826087,93301,93399
+Henderson,NV,United States of America,67.85714286,35.0,89002,89077
+Chula Vista,CA,United States of America,37.5,75.0,91909,91921
+Garden Grove,CA,United States of America,75.0,0.0,92641,92846
+Napa,CA,United States of America,92.85714286,37.5,94558,94581
+Beverly Hills,CA,United States of America,100.0,0.0,90209,90213
+Yonkers,NY,United States of America,100.0,50.0,10701,10710
+Niagara Falls,NY,United States of America,100.0,50.0,14301,14305
+Oyster Bay,NY,United States of America,100.0,25.0,11771,11771
+Livermore,CA,United States of America,75.0,54.16666667,94550,94551
+Santa Cruz,CA,United States of America,88.23529412,34.61538462,95060,95065
+Santa Clara,CA,United States of America,75.0,35.0,95050,95056
+Santa Barbara,CA,United States of America,83.82352941,56.25,93101,93190
+Crescent City,CA,United States of America,100.0,0.0,95531,95532
+San Mateo,CA,United States of America,80.0,20.0,94401,94497
+Yuba City,CA,United States of America,100.0,50.0,95991,95993
+Poughkeepsie,NY,United States of America,91.66666667,12.5,12600,12604
+Rancho Palos Verdes,CA,United States of America,87.5,25.0,90275,90275
+Modesto,CA,United States of America,46.66666667,54.54545455,95350,95397
+Vallejo,CA,United States of America,100.0,50.0,94589,94592
+Thousand Oaks,CA,United States of America,92.5,20.83333333,91358,91362
+Sunnyvale,CA,United States of America,77.08333333,55.55555556,94085,94091
+Oxnard,CA,United States of America,95.0,0.0,93030,93036
+Santa Rosa,CA,United States of America,81.25,29.54545455,95401,95409
+Binghamton,NY,United States of America,62.5,62.5,13901,13905
+Newport Beach,CA,United States of America,93.75,25.0,92658,92663
+Middletown,NY,United States of America,100.0,25.0,10940,10943
+Simi Valley,CA,United States of America,82.14285714,25.0,93062,93099
+Fairfield,CA,United States of America,87.5,37.5,94533,94534
+Schenectady,NY,United States of America,50.0,50.0,12301,12345
+Adelanto,CA,United States of America,50.0,50.0,92301,92301
+El Cajon,CA,United States of America,50.0,25.0,92019,92090
+Escondido,CA,United States of America,75.0,12.5,92025,92046
+Paradise,CA,United States of America,75.0,50.0,95967,95969
+Chico,CA,United States of America,72.5,50.0,95926,95976
+Amargosa Valley,NV,United States of America,25.0,100.0,89020,89020
+White Plains,NY,United States of America,37.5,62.5,10601,10650
+Berkeley,CA,United States of America,79.16666667,36.11111111,94701,94720
+Pasadena,CA,United States of America,65.0,20.0,91030,91199
+Glendale,CA,United States of America,77.5,45.83333333,91201,91226
+San Bernardino,CA,United States of America,0.0,50.0,92401,92427
+Mountain View,CA,United States of America,91.66666667,33.33333333,94035,94043
+Pomona,CA,United States of America,37.5,75.0,91766,91799
+Monterey,CA,United States of America,91.66666667,34.375,91754,93944
+Palm Springs,CA,United States of America,43.75,87.5,92258,92292
+Salinas,CA,United States of America,100.0,50.0,93901,93915
+Ontario,CA,United States of America,33.33333333,25.0,91758,91798
+Eureka,CA,United States of America,100.0,0.0,95501,95503
+Oceanside,CA,United States of America,75.0,75.0,92049,92058
+Palmdale,CA,United States of America,32.14285714,50.0,93550,93599
+Torrance,CA,United States of America,75.0,0.0,90501,90510
+Ventura,CA,United States of America,85.0,35.0,93001,93009
+Concord,CA,United States of America,62.5,12.5,94518,94529
+Alameda,CA,United States of America,62.5,37.5,94501,94502
+Carlsbad,CA,United States of America,75.0,25.0,92008,92018
+Hayward,CA,United States of America,87.5,25.0,94540,94557
+Fontana,CA,United States of America,45.0,35.0,92331,92337
+Santa Clarita,CA,United States of America,87.5,31.25,91350,91390
+Roseville,CA,United States of America,93.75,40.0,95661,95747
+Walnut Creek,CA,United States of America,83.33333333,8.333333333,94595,94598
+Carson,CA,United States of America,25.0,100.0,90745,95644
+Corona,CA,United States of America,50.0,37.5,91718,92883
+Lancaster,CA,United States of America,87.5,12.5,93534,93586
+Fullerton,CA,United States of America,100.0,25.0,92632,92838
+Victorville,CA,United States of America,85.71428571,50.0,92392,92395
+Antioch,CA,United States of America,0.0,75.0,94509,94531
+Redding,CA,United States of America,72.22222222,45.83333333,96001,96099
+Rancho Cucamonga,CA,United States of America,66.66666667,16.66666667,91701,91739
+El Centro,CA,United States of America,78.57142857,66.66666667,92243,92244
+Visalia,CA,United States of America,40.0,75.0,93277,93292
+Merced,CA,United States of America,87.5,50.0,95340,95348
+Costa Mesa,CA,United States of America,56.25,40.0,92626,92628
+Redwood City,CA,United States of America,100.0,0.0,94059,94065
+Mission Viejo,CA,United States of America,75.0,75.0,92690,92692
+Encinitas,CA,United States of America,75.0,12.5,92023,92024
+Corning,NY,United States of America,100.0,37.5,14830,14831
+Paso Robles,CA,United States of America,100.0,75.0,93446,93447
+Yucaipa,CA,United States of America,50.0,75.0,92399,92399
+Apple Valley,CA,United States of America,100.0,0.0,92307,92308
+San Rafael,CA,United States of America,100.0,0.0,94901,94915
+Santa Maria,CA,United States of America,83.33333333,75.0,93454,93458
+Atascadero,CA,United States of America,100.0,100.0,93422,93423
+Citrus Heights,CA,United States of America,100.0,50.0,95610,95621
+Davis,CA,United States of America,75.0,25.0,95616,96108
+Highland,CA,United States of America,50.0,100.0,92346,95660
+New Rochelle,NY,United States of America,50.0,25.0,10801,10805
+Pleasanton,CA,United States of America,100.0,0.0,94566,94588
+Lake Forest,CA,United States of America,87.5,0.0,92630,92630
+Banning,CA,United States of America,80.0,50.0,92220,92220
+Belmont,CA,United States of America,100.0,25.0,94002,94003
+Grass Valley,CA,United States of America,62.5,62.5,95945,95949
+Mount Vernon,NY,United States of America,100.0,50.0,10550,10559
+Ukiah,CA,United States of America,100.0,50.0,95482,95482
+Dublin,CA,United States of America,100.0,0.0,94568,94568
+Ojai,CA,United States of America,87.5,50.0,93023,93024
+Temecula,CA,United States of America,71.42857143,27.77777778,92589,92593
+Murrieta,CA,United States of America,100.0,25.0,92562,92564
+Indio,CA,United States of America,50.0,25.0,92201,92203
+Redondo Beach,CA,United States of America,100.0,37.5,90277,90278
+Camarillo,CA,United States of America,100.0,0.0,93010,93012
+Danville,CA,United States of America,100.0,75.0,94506,94526
+Oroville,CA,United States of America,100.0,0.0,95965,95966
+Madera,CA,United States of America,75.0,50.0,93636,94976
+Glendora,CA,United States of America,50.0,25.0,91740,91741
+Montclair,CA,United States of America,75.0,0.0,91763,91763
+Yucca Valley,CA,United States of America,87.5,50.0,92284,92286
+Corcoran,CA,United States of America,50.0,50.0,93212,93212
+Tustin,CA,United States of America,75.0,37.5,92680,92782
+Imperial,CA,United States of America,87.5,50.0,91932,92251
+Elmira,NY,United States of America,100.0,25.0,14901,14975
+Lake Elsinore,CA,United States of America,50.0,75.0,92530,92532
+Aliso Viejo,CA,United States of America,100.0,75.0,92656,92698
+Youngstown,NY,United States of America,75.0,58.33333333,14174,14174
+Rocklin,CA,United States of America,100.0,0.0,95677,95765
+Marina,CA,United States of America,100.0,50.0,90292,93933
+Foster City,CA,United States of America,100.0,0.0,,
+Mesquite,NV,United States of America,100.0,0.0,89024,89034
+Watertown,NY,United States of America,62.5,37.5,13601,13603
+Hempstead,NY,United States of America,100.0,50.0,11549,11552
+Smithtown,NY,United States of America,100.0,50.0,11745,11787
+Islip,NY,United States of America,75.0,25.0,11722,11795
+Lakeport,CA,United States of America,100.0,50.0,95453,95453
+Jackson,CA,United States of America,100.0,50.0,95642,95642
+Yreka,CA,United States of America,100.0,50.0,96097,96097
+Carlisle,NY,United States of America,100.0,50.0,12031,12031
+New Windsor,NY,United States of America,100.0,50.0,12553,12553
+Taylor,NY,United States of America,87.5,50.0,,
+New Paltz,NY,United States of America,100.0,50.0,12561,12561
+Webster,NY,United States of America,0.0,50.0,14580,14584
+Germantown,NY,United States of America,100.0,0.0,12526,12526
+Bath,NY,United States of America,100.0,50.0,14810,14810
+Dickinson,NY,United States of America,100.0,50.0,12930,12930
+Gainesville,NY,United States of America,100.0,25.0,14066,14066
